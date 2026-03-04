@@ -4,8 +4,7 @@
 
 ## 功能
 
-- 自然语言解析日程（时k、Moonshot、通义千问、本地 Ollama 等所有兼容接口
-间、地点、备注）
+- 自然语言解析日程
 - 根据内容自动选择日历（科研 / 工作 / 个人等）
 - 支持单次创建多个日程
 - 接入 Apple 快捷指令，通过 Siri / 快捷键触发
@@ -44,7 +43,7 @@ cp config.example.json config.json
 
 | 字段 | 说明 |
 |------|------|
-| `api_url` | API 地址，填到 `/v1` 即可，脚本自动补全路径 |
+| `api_url` | API 地址 |
 | `api_key` | 对应平台的 API 密钥 |
 | `model` | 模型名称 |
 | `default_calendar` | 默认写入的日历（必须是日历 App 中已有的名称） |
@@ -132,4 +131,6 @@ CalenAI/
 
 ## License
 
-MIT
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — 署名-非商业性使用 4.0 国际
+
+允许自由使用、修改和分享，但须署名且不得用于商业目的。

@@ -159,7 +159,7 @@ def call_llm(config, user_input):
 规则：
 1. 未指定结束时间 → 默认1小时
 2. "全天"或无具体时间 → all_day:true, 00:00~23:59
-3. 明天={（now + timedelta(days=1)).strftime('%Y-%m-%d')}，后天={(now + timedelta(days=2)).strftime('%Y-%m-%d')}
+3. 明天={(now + timedelta(days=1)).strftime('%Y-%m-%d')}，后天={(now + timedelta(days=2)).strftime('%Y-%m-%d')}
 4. "下周X"基于当前{current_weekday}推算
 5. location/notes 没提到则留空字符串
 6. 只返回 JSON 数组，不要 markdown 包裹
