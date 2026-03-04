@@ -1,0 +1,8 @@
+{
+  "api_url": "https://api.openai.com/v1/chat/completions",
+  "api_key": "YOUR_API_KEY_HERE",
+  "model": "gpt-4o",
+  "default_calendar": "",
+  "calendars": [],
+  "default_alert_minutes": 15
+}
