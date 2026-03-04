@@ -1,9 +1,0 @@
-{
-  "api_url": "https://api.shubiaobiao.com/v1",
-  "api_key": "sk-Bm5Lo1oewqI9lyj7dEg6iSkFvCQquSYUxnD1kDaYxrlMWRHK",
-  "model": "gpt-5",
-  "default_calendar": "个人",
-  "calendars": ["科研", "临床", "个人", "杂项"],
-  "default_alert_minutes": 15,
-  "language": "zh-CN"
-}
